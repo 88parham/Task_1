@@ -1,0 +1,129 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: powderblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+@media screen and (max-width: 600px) {
+   body {
+       background-color: rebeccapurple;
+    }
+}
+
+li {
+    display: inline;
+    overflow: hidden;
+  }
+  ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    background-color: slateblue;
+    position: fixed;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: yellowgreen;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  ::first-letter {
+      color: darkorange;
+      font-weight: bold;
+  }
+
+  .form {
+      font-family: sans-serif;
+      padding: 20px;
+      margin: 10px;
+      background-color: whitesmoke;
+      border-style: solid;
+      border-color: black;
+      border-width: 5px ;
+  }
+
+  .titles {
+      padding: 10px;
+      padding-top: 70px;
+      margin: 5px;
+  }
+
+  .img {
+    padding: 10px;
+    margin: 5px;
+}
+
+  #img2 {
+    padding: 20px;
+    border-style: solid;
+    image-rendering: optimizeQuality;
+    border-image-width: 50%;
+    border-color: darkslategrey;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+        border-style: solid;
+        border-color: white;
+        border-width: 20px;
+    }
+    #img2 {
+        border-style: solid;
+        border-color: white;
+        border-width: 20px;
+    }
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif
+}
+
